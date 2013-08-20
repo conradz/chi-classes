@@ -1,6 +1,6 @@
 {
   "name": "chi-class",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Easily manage CSS classes on DOM nodes",
   "main": "index.js",
   "scripts": {
