@@ -1,6 +1,6 @@
 # chi-classes
 
-Easily add or remove CSS classes on DOM nodes.
+Easily manage CSS classes on DOM nodes.
 
 This module uses Node.js-style modules, for best results use
 [browserify](https://github.com/substack/node-browserify).
