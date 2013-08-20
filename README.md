@@ -1,5 +1,8 @@
 # chi-classes
 
+[![Build Status](https://travis-ci.org/conradz/chi-classes.png?branch=master)](https://travis-ci.org/conradz/chi-classes)
+[![Dependency Status](https://gemnasium.com/conradz/chi-classes.png)](https://gemnasium.com/conradz/chi-classes)
+
 Easily manage CSS classes on DOM nodes.
 
 This module uses Node.js-style modules, for best results use
