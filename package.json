@@ -1,0 +1,29 @@
+{
+  "name": "chi-class",
+  "version": "0.0.0",
+  "description": "Easily add or remove CSS classes on DOM nodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "chi-build test",
+    "serve": "chi-build serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conradz/chi-class.git"
+  },
+  "keywords": [
+    "css",
+    "classes",
+    "class",
+    "style"
+  ],
+  "author": "Conrad Zimmerman <me@conradz.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/conradz/chi-class/issues"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4",
+    "chi-build": "0.0.1"
+  }
+}
