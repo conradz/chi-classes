@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "chi-build test",
+    "lint": "chi-build lint",
     "serve": "chi-build serve"
   },
   "repository": {
@@ -24,6 +25,6 @@
   },
   "devDependencies": {
     "tape": "~1.0.4",
-    "chi-build": "0.0.1"
+    "chi-build": "0.0.4"
   }
 }

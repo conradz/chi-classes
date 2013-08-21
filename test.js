@@ -1,5 +1,6 @@
 var test = require('tape'),
-    classes = require('./');
+    classes = require('./'),
+    document = window.document;
 
 test('add', function(t) {
 

@@ -71,7 +71,7 @@ function toggle(node, classes) {
             do {
                 existing.splice(i, 1);
                 index = existing.indexOf(c);
-            } while (index !== -1)
+            } while (index !== -1);
         }
     }
 
