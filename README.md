@@ -1,5 +1,7 @@
 # chi-classes
 
+[![NPM](https://nodei.co/npm/chi-classes.png?compact=true)](https://nodei.co/npm/chi-classes/)
+
 [![Build Status](https://travis-ci.org/conradz/chi-classes.png?branch=master)](https://travis-ci.org/conradz/chi-classes)
 [![Dependency Status](https://gemnasium.com/conradz/chi-classes.png)](https://gemnasium.com/conradz/chi-classes)
 
