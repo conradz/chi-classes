@@ -4,9 +4,9 @@
   "description": "Easily manage CSS classes on DOM nodes",
   "main": "index.js",
   "scripts": {
-    "test": "chi-build test",
-    "lint": "chi-build lint",
-    "serve": "chi-build serve"
+    "test": "hut-build test",
+    "lint": "hut-build lint",
+    "serve": "hut-build serve"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "tape": "~1.0.4",
-    "chi-build": "0.0.4"
+    "hut-build": "~0.1.4"
   }
 }
