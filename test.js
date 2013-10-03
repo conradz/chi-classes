@@ -35,7 +35,7 @@ test('add', function(t) {
         node.className = 'foo baz';
         classes(node).add('foo bar');
 
-        t.equal(node.className, 'foo baz bar');
+        t.equal(node.className, 'baz foo bar');
         t.end();
     });
 

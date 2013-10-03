@@ -26,5 +26,9 @@
   "devDependencies": {
     "tape": "~1.0.4",
     "hut-build": "~0.1.4"
+  },
+  "dependencies": {
+    "flatten-list": "0.0.1",
+    "mout": "~0.7.1"
   }
 }
