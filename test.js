@@ -105,6 +105,29 @@ test('toggle', function(t) {
     t.end();
 });
 
+test('set', function(t) {
+
+    t.test('add classes when value is true', function(t) {
+        var node = document.createElement('div');
+        node.className = 'foo';
+        classes(node).set('foo bar', true);
+
+        t.equal(node.className, 'foo bar');
+        t.end();
+    });
+
+    t.test('remove classes when value is false', function(t) {
+        var node = document.createElement('div');
+        node.className = 'bar baz';
+        classes(node).set('foo bar', false);
+
+        t.equal(node.className, 'baz');
+        t.end();
+    });
+
+    t.end();
+});
+
 test('has', function(t) {
 
     t.test('check if node includes class', function(t) {

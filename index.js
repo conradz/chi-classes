@@ -34,6 +34,16 @@ ClassList.prototype.add = modifier(union);
 ClassList.prototype.remove = modifier(difference);
 ClassList.prototype.toggle = modifier(xor);
 
+ClassList.prototype.set = function(classes, value) {
+    if (value) {
+        this.add(classes);
+    } else {
+        this.remove(classes);
+    }
+
+    return this;
+};
+
 ClassList.prototype.has = function(classes) {
     classes = split(classes);
 

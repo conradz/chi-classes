@@ -29,6 +29,9 @@ classes(div).remove('foo bar');
 // Toggle classes
 classes(div).toggle('selected');
 
+// Add/remove classes depending on a boolean value
+classes(div).set('selected', isSelected);
+
 // Chaining
 classes(div).add('active').remove('foo');
 
@@ -73,6 +76,13 @@ Returns `this`, which can be used to chain methods.
 Toggles the specified classes on all nodes. If a node does not contain a class,
 the class is added to the node. If the node already contains a class, the class
 is removed from the node.
+
+Returns `this`, which can be used to chain methods.
+
+### `#set(classes, value)`
+
+If `value` is truthy, adds the specified classes to all nodes. Otherwise it
+removes the classes from all nodes.
 
 Returns `this`, which can be used to chain methods.
 
