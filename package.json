@@ -24,11 +24,11 @@
     "url": "https://github.com/conradz/chi-classes/issues"
   },
   "devDependencies": {
-    "tape": "~1.0.4",
+    "tape": "~1.1.1",
     "hut-build": "~0.1.4"
   },
   "dependencies": {
-    "flatten-list": "0.0.1",
+    "flatten-list": "~0.0.2",
     "mout": "~0.7.1"
   }
 }
