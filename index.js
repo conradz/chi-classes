@@ -1,3 +1,5 @@
+'use strict';
+
 var union = require('mout/array/union'),
     difference = require('mout/array/difference'),
     xor = require('mout/array/xor'),
@@ -14,6 +16,7 @@ function split(input) {
 
 function modifier(action) {
     function modify(node) {
+        /*jshint validthis: true */
         var existing = split(node.className);
         node.className = action(existing, this).join(' ');
     }

@@ -1,3 +1,5 @@
+'use strict';
+
 var test = require('tape'),
     classes = require('./'),
     document = window.document;
