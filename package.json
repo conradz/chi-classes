@@ -6,7 +6,8 @@
   "scripts": {
     "test": "hut-build test",
     "lint": "hut-build lint",
-    "serve": "hut-build serve"
+    "build": "hut-build build",
+    "start": "hut-build serve"
   },
   "repository": {
     "type": "git",
@@ -24,11 +25,11 @@
     "url": "https://github.com/conradz/chi-classes/issues"
   },
   "devDependencies": {
-    "tape": "~1.1.1",
+    "tape": "~2.1.0",
     "hut-build": "~0.2.0"
   },
   "dependencies": {
-    "flatten-list": "~0.0.2",
+    "flatten-list": "0.0.2",
     "mout": "~0.7.1"
   }
 }
