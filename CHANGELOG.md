@@ -1,5 +1,9 @@
 # Changelog
 
+# 0.1.0
+
+ * Update `mout` to v0.8.0
+
 # 0.0.4
 
  * Add `set` method
