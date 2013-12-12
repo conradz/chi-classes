@@ -5,7 +5,7 @@
 [![Build Status](https://drone.io/github.com/conradz/chi-classes/status.png)](https://drone.io/github.com/conradz/chi-classes/latest)
 [![Dependency Status](https://gemnasium.com/conradz/chi-classes.png)](https://gemnasium.com/conradz/chi-classes)
 
-[![Selenium Test Status](https://saucelabs.com/browser-matrix/chi-classes.svg)](https://saucelabs.com/u/chi-classes)
+[![Selenium Test Status](https://saucelabs.com/browser-matrix/chi-classes-test.svg)](https://saucelabs.com/u/chi-classes-test)
 
 Easily manage CSS classes on DOM nodes.
 
